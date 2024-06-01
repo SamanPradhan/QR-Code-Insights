@@ -1,5 +1,5 @@
 
-const BaseUrl_UserDisplay = `https://confused-mite-bandanna.cyclic.app`
+const BaseUrl_UserDisplay = `https://qr-code-insights.onrender.com`
 
 let a = new URLSearchParams(window.location.search);
 

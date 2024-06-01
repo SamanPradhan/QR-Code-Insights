@@ -1,5 +1,5 @@
 
-const BaseUrl_LandingJS = `https://confused-mite-bandanna.cyclic.app`
+const BaseUrl_LandingJS = `https://qr-code-insights.onrender.com`
 
 // check access token
 setTimeout(() => {

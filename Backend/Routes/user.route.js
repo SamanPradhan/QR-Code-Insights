@@ -105,7 +105,7 @@ userroute.post("/register", async (req, res) => {
             }
         });
 
-        const BaseUrl_Backend = `https://confused-mite-bandanna.cyclic.app`
+        const BaseUrl_Backend = `https://qr-code-insights.onrender.com`
 
         let mailOptions = {
             from: 'pradhansaman2017@gmail.com',

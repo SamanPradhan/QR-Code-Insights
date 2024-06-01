@@ -1,5 +1,5 @@
 
-const BaseUrl_login = `https://confused-mite-bandanna.cyclic.app`
+const BaseUrl_login = `https://qr-code-insights.onrender.com`
 
 
 

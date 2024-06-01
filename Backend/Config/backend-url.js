@@ -9,7 +9,7 @@ const getUrl = () => {
   if (process.env.USE_CUSTOM_URL) {
     return 'https://qr-code-insights.onrender.com';
   }
-  return `http://localhost:3000/`;
+  return `http://localhost:3000`;
 };
 
 // Export the URL
