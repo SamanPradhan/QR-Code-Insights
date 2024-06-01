@@ -1,6 +1,8 @@
 
 const express = require("express");
 
+const { URL } = require('../Config/backend-url');
+
 const { UserModel } = require("../Models/user.model")
 
 const bcrypt = require("bcrypt");
@@ -75,6 +77,7 @@ userroute.get("/", (req, res) => {
  */
 userroute.post("/register", async (req, res) => {
     try {
+        console.log("here,", req.body )
         let { Name, Email, Password, Address, Gender } = req.body
         let user = await UserModel.findOne({ Email });
 

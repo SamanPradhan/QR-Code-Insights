@@ -5,6 +5,8 @@ const cors = require('cors');
 
 const { connection } = require('./Config/db');
 
+const { URL } = require('./Config/backend-url');
+
 const { qrRouter } = require('./Routes/qr.route');
 
 const { userroute } = require('./Routes/user.route');
@@ -52,7 +54,7 @@ const options={
         },
         servers:[
             {   
-                url:"https://confused-mite-bandanna.cyclic.app/"
+                url: URL
             }
         ]
     },

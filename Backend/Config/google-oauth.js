@@ -4,10 +4,12 @@ const passport=require("passport");
 const { UserModel } = require("../Models/user.model");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
+const { URL } = require('./backend-url');
+
 passport.use(new GoogleStrategy({
     clientID: process.env.googleclientid,
     clientSecret: process.env.googleclientsecret,
-    callbackURL: "https://confused-mite-bandanna.cyclic.app/user/auth/google/callback"
+    callbackURL: `${URL}/user/auth/google/callback`
   },
   async function(accessToken, refreshToken, profile, cb) {
     try {
