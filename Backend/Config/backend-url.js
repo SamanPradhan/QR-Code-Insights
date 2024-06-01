@@ -7,7 +7,7 @@ dotenv.config();
 // Determine the URL based on the environment variable
 const getUrl = () => {
   if (process.env.USE_CUSTOM_URL) {
-    return 'https://confused-mite-bandanna.app';
+    return 'https://qr-code-insights.onrender.com';
   }
   return `http://localhost:3000/`;
 };
